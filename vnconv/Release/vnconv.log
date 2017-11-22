@@ -1,0 +1,16 @@
+﻿  StdAfx.cpp
+  charset.cpp
+  convert.cpp
+convert.cpp(120): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+convert.cpp(132): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+convert.cpp(145): warning C4996: 'tempnam': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _tempnam. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(714) : see declaration of 'tempnam'
+convert.cpp(152): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+  data.cpp
+  error.cpp
+  pattern.cpp
+  Generating Code...
+  vnconv.vcxproj -> E:\Doan\Uk362src\Uk362\vnconv\.\../Release\vnconv.lib

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2a017665-1dba-43a6-9983-ffcc203e99d4}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ea327ac8-a58b-4bef-8e98-43be2d6f485b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{27bb9854-dcc1-4f38-b1bc-def9495fafe0}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="about.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="encode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="keydlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="macrodlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mactab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="odmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prehdr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tooldlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ukmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="userpref.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="encode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keydlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="macrodlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mactab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mainwnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="odmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="preHdr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tooldlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ukmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="userpref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\2arrow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\3keys.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\3keys_d.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Add.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ARW05DN.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ARW06DN.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ARW06UP.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cancel.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\convert.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Delete.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FACE01.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FACE02.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\help.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00002.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00003.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\info.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Key.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\OK.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Openfold.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\PC.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Pen.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\v.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\v2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\viet-off.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\viet-on.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\H_POINT.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="newkey.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="gpl.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\rtfio\rtfio.lib" />
+  </ItemGroup>
+</Project>
