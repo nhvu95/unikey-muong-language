@@ -910,15 +910,16 @@ void VietKey::duplicateVowelForMuong(unsigned char c)
 		}
 		backs = keys - i;
 		//ChangedChar = buf[i];
-		ansiPush[keysPushed++] = buf[i];
+		//ansiPush[keysPushed++] = buf[i];
+		OldChar = buf[i];
 		for (k = keys; k > i; k--)
 			buf[k] = buf[k - 1];
-		buf[i] = ChangedChar;
+		ChangedChar = buf[i];
 		if (keys == KEY_BUFSIZE)
 			throwBuf();
 		lowerCase[keys] = OldChar; //(OldChar);
 		keys++;
-		for (k = i + 1; k < keys; k++)
+		for (k = i; k < keys; k++)
 			ansiPush[keysPushed++] = buf[k];
 		lastQPress = 1;
 	}

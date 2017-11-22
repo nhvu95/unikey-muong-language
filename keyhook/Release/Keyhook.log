@@ -1,8 +1,10 @@
-﻿  vietkey.cpp
-vietkey.cpp(636): warning C4101: 't' : unreferenced local variable
-vietkey.cpp(781): warning C4101: 'newChar' : unreferenced local variable
-vietkey.cpp(781): warning C4101: 't' : unreferenced local variable
-vietkey.cpp(1497): warning C4060: switch statement contains no 'case' or 'default' labels
+﻿  keyhook.cpp
+  vietkey.cpp
+vietkey.cpp(638): warning C4101: 't' : unreferenced local variable
+vietkey.cpp(783): warning C4101: 'newChar' : unreferenced local variable
+vietkey.cpp(783): warning C4101: 't' : unreferenced local variable
+vietkey.cpp(1507): warning C4060: switch statement contains no 'case' or 'default' labels
+  Generating Code...
 C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\Doan\Uk362src\Uk362\keyhook\.\../Release\keyhook.dll) does not match the Linker's OutputFile property value (E:\Doan\Uk362src\Uk362\Release\UKHook35.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
 C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(keyhook) does not match the Linker's OutputFile property value (UKHook35). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
      Creating library .\../Release/UKHook35.lib and object .\../Release/UKHook35.exp
